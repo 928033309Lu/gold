@@ -1,0 +1,115 @@
+// cesium
+$header-color:rgba(52, 52, 57, 1);
+$btn-map-color:rgba(221, 221, 221, 1);
+
+// 前端
+// 色值#2cd0b9  rgb:44,208,185
+
+$bg-color: rgba(44,208,185,1); // 默认颜色
+$bg-color2: rgba(44,208,185,1);
+$font-size: 0.16rem;
+$text-color:rgba(255, 255, 255, 1); // 默认字体颜色
+$text-black-color:#333;
+$text-active-color: $bg-color; // 选中字体颜色
+$box-background: rgba(235,242,228,1); // box背景颜色
+
+$border-color: rgba(206,212,190,1);
+$select-bg-color: #fff; // 下拉框 背景
+$select-hover-color: #fff; // all类型下拉框 背景hover
+$el-opacity:0.9;
+
+// a 标签字体颜色
+$text-a-color: $text-black-color;
+// 下拉背景
+$popper-background: #fff;
+$popper-background2: rgba(235,242,228,1);
+// 按钮
+$button-background: rgba(44,208,185,0.9);
+$button-hover-background: $bg-color;
+$button-hover-text: #fff;
+
+$input-height: 0.35rem;
+$input-text-color: #6D7D41;
+$form-item__content-height: 0.45rem;
+$form-label-text-color: #6D7D41;
+
+$table-text-color: $input-text-color;
+$table-thead-background: #F0F7F2;
+$table-background: #fff;
+$table-hover-background: $select-hover-color;
+$input-border-color: $border-color;
+$input-border-hover-color: $border-color;
+$input-background-color: none;
+$textarea-background: none;
+
+
+// el-radio
+$radio-checked-laber-color: $bg-color;
+$radio-checked-color: $bg-color;
+$radio-circle-center-color: #fff;
+$radio-background: transparent;
+$radio-hover-color: $input-border-color;
+$radio-text-color: $input-border-color;
+$radio-border-color: $input-border-color;
+$radio-border-color-checked: $bg-color;
+
+// el-checkbox
+$checkbox-checked-color: $bg-color;
+$checkbox-checked-label-color: $bg-color;
+$checkbox-circle-center-color: $bg-color;
+$checkbox-background: transparent;
+$checkbox-hover-color: $input-border-color;
+$checkbox-text-color: $input-border-color;
+$checkbox-border-color: $input-border-color;
+
+// el-select
+$select-background-color: none;
+$selected-active-color: $bg-color;
+$select-text-color: $text-black-color;
+$select-background-hover-color: #E2F5F2;
+$select-dropdown-background: #fff;
+
+// el-dropdown
+$dropdown-menu-height: 0.35rem;
+$dropdown-color: $text-black-color;
+$dropdown-menu-background: $select-bg-color;
+$dropdown-hover-text-color: $bg-color;
+$dropdown-hover-background: $select-hover-color;
+$dropdown-border-color: $border-color;
+
+// el-cascader
+$cascader-height: 0.4rem;
+$cascader-active-background: #E2F5F2;
+
+// el-slider
+$slider-background: $select-bg-color;
+$slider-active-background: $bg-color;
+$picker-background: $bg-color;
+
+// el-tree
+$tree-color: $text-color;
+$tree-background: none;
+$tree-hover-background: $select-hover-color;
+$tree-click-background: $select-hover-color;
+
+// el-pagination
+$pagination-li-hover-color: $select-hover-color;
+$pagination-li-active-color: $select-hover-color;
+$pagination-li-active-background: $bg-color;
+$pagination-li-width: 0.28rem;
+$pagination-li-height: 0.28rem;
+$pagination-li-icon-height: 0.3rem;
+$pagination-li-background: $select-bg-color;
+
+// el-tooltip
+$tooltip-bottom: 8px;
+
+// el-message
+$font-size-icon: 0.19rem;
+$font-size-message: 0.17rem;
+
+// 滚动条scrollbar
+$background-scrollBar: rgba(156,165,132,1);
+$background-scrollBar-shadow: rgba(235,242,228,1);
+$background-scrollBar-thumb: rgba(235,242,228,1);
+

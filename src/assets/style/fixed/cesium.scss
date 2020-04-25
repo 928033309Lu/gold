@@ -1,0 +1,64 @@
+.compass {
+    right: 10px;
+    top: 20px;
+    z-index: -1111;
+    opacity: 0;
+}
+
+.navigation-controls {
+    right: 44px;
+    top: 120px;
+    border: none !important;
+    z-index: -1111;
+    opacity: 0;
+
+    .navigation-control {
+        background: $header-color;
+        opacity: 0.85;
+        color: $btn-map-color;
+
+        &:hover {
+            background: rgba(28, 28, 31, 1);
+            color: $btn-map-color;
+        }
+    }
+
+    .navigation-control-icon-zoom-in:hover,
+    .navigation-control-icon-zoom-out:hover {
+        fill: $btn-map-color;
+    }
+}
+
+.distance-legend {
+    bottom: 3px !important;
+    left: 305px !important;
+    user-select: none;
+    z-index: 1 !important;
+
+    .distance-legend-label {
+        color: $text-color;
+    }
+
+    .distance-legend-scale-bar {
+        border-left: 1px solid $text-color;
+        border-right: 1px solid $text-color;
+        border-bottom: 1px solid $text-color;
+    }
+}
+
+.map-status-bar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: right;
+    padding: 0 10px 0 0;
+    background: rgba(235,242,228,0.1);
+    font-size: 12px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: $text-color;
+}
